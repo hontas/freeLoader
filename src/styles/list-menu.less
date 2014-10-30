@@ -1,0 +1,20 @@
+.list-menu {
+	li > a {
+		color: @text-color;
+		display: block;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 0.5em;
+		text-decoration: none;
+	}
+
+	li:last-child > a {
+		border-bottom: none;
+	}
+}
+
+.layered-menu {
+	background-color: rgba(255,255,255,.95);
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}

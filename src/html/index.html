@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<div id="freeloader" class="flex-container-horizontal">
+  		<aside id="menu-left" class="flex-container-vertical">
+  			<header class="flex-item-header inset-shadow">
+  				<p>Meny</p>
+  			</header>
+  			<nav class="flex-item inset-shadow">
+  				<ul class="list-menu">
+  					<li><a href="#">Menu 1</a></li>
+  					<li><a href="#">Menu 2</a></li>
+  					<li><a href="#">Menu 3</a></li>
+  					<li><a href="#">Menu 4</a></li>
+  				</ul>
+  			</nav>
+  		</aside>
+
+		<section id="main" class="flex-item flex-container-vertical">
+			<header id="page-header" class="flex-item-header">
+        <button class="btn"></button>
+        <input type="search" id="search-field" />
+			</header>
+
+      <nav class="layered-menu drop-shadow"><ul id="search-results" class="list-menu"></ul></nav>
+
+			<!-- <div id="street-view"></div> -->
+			<div id="map-canvas" class="flex-item"></div>
+
+			<footer id="page-footer" class="flex-item-footer">
+		    	<p>® footer</p>
+		    </footer>
+		</section>
+
+		<aside id="menu-right" class="flex-container-vertical">
+			<header class="flex-item-header"></header>
+  			<nav class="flex-item"></nav>
+		</aside>
+  	</div>
+
+
+
+
+    <template id="context-menu">
+        <li><a href="#"></a></li>
+    </template>
+
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTjOCTNmSkVwQ4tsb65JnunbbdPFmYU8M"></script>
+    <script type="text/javascript" src="js/freeLoader.js"></script>
+  </body>
+</html>

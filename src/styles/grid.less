@@ -1,0 +1,55 @@
+@aside-menu-width: 200px;
+
+#freeloader {
+	height: 100%;
+}
+
+.flex-container-vertical,
+.flex-container-horizontal {
+	display: flex;
+}
+
+.flex-container-vertical {
+	flex-direction: column;
+}
+
+.flex-item {
+	flex: 1;
+}
+
+.flex-item-header,
+.flex-item-footer {
+	background-color: @blue-greenish;
+	color: white;
+	padding: 0 1em;
+	line-height: 3em;
+}
+.flex-item-footer {
+	height: 0;
+}
+
+#main {
+
+}
+
+#page-header {
+	background-color: @blueish;
+	color: white;
+}
+
+#menu-left,
+#menu-right {
+	width: @aside-menu-width;
+	transition: margin 0.2s ease;
+}
+
+#menu-left {
+	margin-left: -@aside-menu-width;
+}
+#menu-right {
+	margin-right: -@aside-menu-width;
+}
+
+#street-view {
+	height: 200px;
+}
